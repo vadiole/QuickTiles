@@ -8,7 +8,7 @@ android {
     namespace = "vadiole.quicktiles"
     defaultConfig {
         applicationId = "vadiole.quicktiles"
-        minSdk = 26
+        minSdk = 30
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
@@ -19,7 +19,7 @@ android {
     buildTypes {
         getByName("debug") {
             applicationIdSuffix = ".debug"
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             isShrinkResources = false
             proguardFiles("proguard-rules.pro")
         }
